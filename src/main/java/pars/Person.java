@@ -5,17 +5,6 @@ public class Person {
 	String name;
 	Integer age;
 
-	public Person() {
-
-	}
-
-	public Person(String name, String city, int age) {
-		this.name = name;
-		this.city = city;
-		this.age = age;
-
-	}
-
 	public String getCity() {
 		return city;
 	}

@@ -22,8 +22,10 @@ public class ParsJson {
 		List<Person> personList = person.getPersons();
 		FileWriter writer = new FileWriter("Result.txt", false);
 		for (int i = 0; i < personList.size(); i++) {
-			writer.append(personList.get(i).getName() + " " + personList.get(i).getCity() + " " + personList.get(i).getAge() + "\r\n");
-			System.out.println(personList.get(i).getName() + " " + personList.get(i).getCity() + " " + personList.get(i).getAge());
+			writer.append(personList.get(i).getName() + " " + personList.get(i).getCity() + " "
+					+ personList.get(i).getAge() + "\r\n");
+			System.out.println(personList.get(i).getName() + " " + personList.get(i).getCity() + " "
+					+ personList.get(i).getAge());
 		}
 		writer.close();
 
